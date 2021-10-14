@@ -46,6 +46,17 @@ body {
   margin-top: 50px;
 }
 
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.social-buttons img {
+  width: 50px;
+}
+
 
 
 footer {
