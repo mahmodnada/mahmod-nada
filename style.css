@@ -20,11 +20,16 @@ body {
 
 .carousel {
   width: 100%;
-  /* height: 800px; */
+  height: 800px;
 }
-
+.d-block{
+  /* object-fit: cover; */
+}
 .carousel-inner {
-  height: 100%;
+  height: 800px;
+}
+.w-100 {
+  width: none !important;
 }
 
 .profile {
@@ -35,6 +40,7 @@ body {
 
 .name {
   color: white;
+  margin-top: 50px;
 }
 
 .main-image {
@@ -57,7 +63,29 @@ body {
   width: 50px;
 }
 
-
+.container{
+  margin-top: 100px;
+  color: #ff7f50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.videos-header{
+  margin-bottom: 50px;
+  border-bottom: 2px solid #ff7f50;
+  padding-bottom: 5px;
+}
+.videos{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.video{
+  border-radius: 25px;
+  margin-top: 10px;
+  width: 340px;
+  height: 260px;
+}
 
 footer {
   display: -webkit-box;
@@ -79,7 +107,11 @@ footer {
 
 footer p {
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+footer p span{
+  color: #ff7f50;
 }
 
 /*# sourceMappingURL=style.css.map */
